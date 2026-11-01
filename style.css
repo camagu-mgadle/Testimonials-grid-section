@@ -16,6 +16,8 @@
   --Grey-500: hsl(217, 19%, 35%);
   --Dark-blue: hsl(219, 29%, 14%);
   --Black: hsl(0, 0%, 7%);
+
+  --Footer: hsl(228, 45%, 44%);
 }
 
 body {
@@ -26,7 +28,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: 500;
 }
 
@@ -63,17 +65,17 @@ img {
 }
 
 h1 {
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 500;
   line-height: 1.1;
 }
 .profession {
   color: var(--Purple-50);
-  font-size: 11px;
+  font-size: 0.6875rem;
 }
 
 .first-para {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
 }
@@ -140,11 +142,11 @@ h1 {
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--Footer);
 }
 
 @media (min-width: 48em) {
-  body2 {
+  body {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -154,7 +156,6 @@ h1 {
 
   .card-container {
     max-width: 70rem;
-    margin: 8rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr 1fr;
